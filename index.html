@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snehali's Stopwatch Web</title>
+    <link rel="stylesheet" href="Task2_Stopwatch_app_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="display d-flex flex-column justify-content-center ">
+            <h1>Snehali's Digital Stop Watch</h1>
+            <div id="time">00:00:00</div>
+            <button id="start" onclick="startStopwatch()"><img src="https://thumbs.dreamstime.com/b/start-button-17357238.jpg" id="startimg" height="50px" width="50px"></button>
+            <button id="stop" onclick="stopStopwatch()"><img src="https://image.freepik.com/free-vector/red-stop-button_118339-342.jpg" id="stopimg" height="50px" width="50px"></button>
+            <button id="lap" onclick="lapTime()"><img src="https://cdn3.iconfinder.com/data/icons/ava-date-and-time/24/Stopwatch_Lap_Times_1-01-1024.png" height="50px" width="50px"></button>
+            <button id="reset" onclick="resetStopwatch()"><img src="https://th.bing.com/th/id/R.227cdd12e8198b52c19ac9f49ec718c6?rik=EW8jfKwN4nPcaQ&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2009%2f11%2freset-button_303425.jpg&ehk=%2f1xEtl9B0KvXg%2fJnP61VMahjW3E8Mvl2vV4pYhaOOZw%3d&risl=&pid=ImgRaw&r=0" height="50px" width="50px"></button>
+        </div>
+        <ul id="laps"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
