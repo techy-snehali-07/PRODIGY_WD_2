@@ -1,0 +1,51 @@
+body {
+    background-image: url('https://thumbs.dreamstime.com/b/antique-stopwatch-19303403.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    text-align: center;
+}
+
+#time {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(236, 20, 20);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #4d2600;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#laps {
+    list-style-type: disc;
+    padding: 2px;
+}
+
+#laps li {
+    margin-bottom: 5px;
+    color: rgb(223, 15, 15);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
